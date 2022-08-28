@@ -19,9 +19,6 @@ export default function Home() {
   const [css] = useStyletron()
   return (
     <div>
-      <Title>Title</Title>
-      <SubTitle $size={50}>Subtitle</SubTitle>
-      <p className={css({ fontSize: '32px' })}>Styled by hook</p>
     </div>
   )
 }
